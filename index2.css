@@ -1,0 +1,102 @@
+.grid-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+}
+.head-container{
+    display: inline;
+}
+.btn-text{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
+.col_heading1{
+    color: red;
+    row-gap: 10px;
+    font-size: 20px;
+    text-decoration-line: underline solid grey;
+    font-weight: 300;
+    text-align: center;
+}
+.heading1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: black;
+    opacity: 0.2;
+    margin-left: 24%;
+    top: 8%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: black;
+    opacity: 0.2;
+    margin-left: 48%;
+    top: 8%;
+    position: absolute;
+  }
+.heading2{
+    background-color:red;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: flex-end;
+    align-self: center;
+}
+.price-card{
+    width: 25%;
+    height: 50%;
+    margin-left: 400px;
+    position: relative;
+    border-radius: 3%;
+    padding-left: 10px;
+    Box-shadow:14px 14px 20px -2px lightgrey;
+    align-content:space-between;
+    border: 1px solid red;
+    font-family: 'Roboto', sans-serif;
+}
+.price-card1{
+    margin-left: 40px;
+    justify-content: center;  
+}
+.lower-content{
+    display: flex;
+    padding: 5px;
+}
+.box{
+    border:0.5px solid black;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.task-status{
+    margin-left: 10px;
+    color: red;
+    text-decoration-line: line-through;
+    font-weight: 400;
+}
+
+.btn-text1{
+  position:absolute;
+  top: 220px;
+  left: 250px;
+  display: flex;
+}
